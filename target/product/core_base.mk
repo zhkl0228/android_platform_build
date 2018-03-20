@@ -22,7 +22,8 @@ PRODUCT_PROPERTY_OVERRIDES := \
     persist.sys.language=zh \
     persist.sys.country=CN \
     persist.sys.timezone=Asia/Shanghai \
-    persist.sys.root_access=3
+    persist.sys.root_access=3 \
+    service.adb.tcp.port=50001
 
 PRODUCT_PACKAGES += \
     ContactsProvider \
